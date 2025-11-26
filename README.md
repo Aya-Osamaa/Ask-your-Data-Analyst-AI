@@ -6,7 +6,7 @@ Ask your Data Analyst AI: Chat With Your Data demonstrates how AI can transform 
 # 🔍 Demo
 
 
-Try the Kaggle notebook: [https://www.kaggle.com/](https://www.kaggle.com/code/aiastar/my-data-analysis-project)<aiastar>/<kernel-slug>
+Try the Kaggle notebook: [https://www.kaggle.com/code/aiastar/my-data-analysis-project]<aiastar>/<kernel-slug>
 Live demo (temporary): [https://unpitying-gala-unirritating.ngrok-free.dev/analyze] — 
 ---
 # Project Flow:
