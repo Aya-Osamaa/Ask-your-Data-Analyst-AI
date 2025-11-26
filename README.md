@@ -48,5 +48,5 @@ streamlit run src/app.py
 ---
 
 
-If you want to try the project or collaborate, feel free to open an issue or contact me at [your-email].
+If you want to try the project or collaborate, feel free to open an issue or contact me at [ayaosamaa2332@gmail.com].
 
