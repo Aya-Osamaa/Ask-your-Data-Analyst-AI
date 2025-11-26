@@ -3,59 +3,39 @@ Ask your Data Analyst AI: Chat With Your Data demonstrates how AI can transform 
 
 # Chat With Your CSV — Your Personal Data Analyst
 
-## 🔍 Demo
+# 🔍 Demo
 
-![demo](assets/demo_screenshot.png)
 
 Try the Kaggle notebook: [https://www.kaggle.com/](https://www.kaggle.com/code/aiastar/my-data-analysis-project)<aiastar>/<kernel-slug>
 Live demo (temporary): [https://unpitying-gala-unirritating.ngrok-free.dev/analyze] — 
 ---
+# Project Flow:
 
-## 🚀 Quick start
+scripting or navigating complex graphical user interfaces for common analysis tasks.
 
-1. Clone the repo:
+Input: User uploads a raw CSV or Excel (.xlsx) file.
 
-```bash
-git clone https://github.com/your-username/chat-with-your-csv.git
-cd chat-with-your-csv
-```
+Query: User asks a question in plain English (e.g., "Compare quarterly sales for the last two years.").
 
-2. Install dependencies:
+AI Generation: The LLM interprets the intent and generates the necessary Python code (using libraries like Pandas and Plotly) to execute the analysis and visualization.
 
-```bash
-pip install -r requirements.txt
-# or
-conda env create -f environment.yml
-conda activate chat-with-csv
-```
+Output: The application instantly displays the relevant chart/visualization and a textual explanation/conclusion derived from the data.
 
-3. Run Streamlit app:
+# 🚀 Quick start
+
+1.Run the kaggle notebook cells NOTE: Replace your NGROK TOKEN in CELL 3
+2.Run the app.py file 
 
 ```bash
 streamlit run src/app.py
 ```
 
-4. If you need the original dataset, run:
-
-```bash
-bash scripts/download_data.sh
-```
-
----
 
 ## 🧾 Files
 
 * `notebooks/chat_with_your_csv.ipynb` — main notebook
 * `src/app.py` — Streamlit app (exported)
-* `assets/` — screenshots and sample CSV
 * `requirements.txt` — Python dependencies
-
----
-
-## ⚠️ Notes & security
-
-* **Do not** commit API keys, ngrok URLs, or other secrets. Use `.env` and GitHub Secrets.
-* Sample CSV included for demo only. For full dataset, follow download instructions.
 
 ---
 
@@ -67,13 +47,6 @@ bash scripts/download_data.sh
 
 ---
 
-## 📄 License
-
-This project is released under the MIT License. See LICENSE for details.
-
----
-
-## ✉️ Contact
 
 If you want to try the project or collaborate, feel free to open an issue or contact me at [your-email].
 
